@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Dosis, sans-serif;
+}
+.containers {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Section  */
+#header-section {
+  background: url("../../assets/images/bg-home.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo-title {
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-family: Dosis;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+#nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+#nav ul li a {
+  text-decoration: none;
+  font-family: Dosis;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: antiquewhite;
+}
+.active-signup {
+  background: #fff;
+  padding: 12px 22px;
+  color: #5064d1 !important;
+  border-radius: 25px;
+}
+.select-lng {
+  background: none;
+  border: none;
+  text-decoration: none;
+  font-family: Dosis;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: antiquewhite;
+  outline: none;
+}
+.select-lng option {
+  text-decoration: none;
+  font-family: Dosis;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+  padding: 15px;
+}
+/* Herp Section */
+.hero-wrapper {
+  display: flex;
+}
+.hero-wrapper > * {
+  flex: 1;
+}
+.hero-title {
+  font-size: 80px;
+  color: #282546;
+  margin-top: 75px;
+}
+.hero-text {
+  color: #6d6985;
+  font-size: 24px;
+  margin: 50px 0px;
+}
+.hero-search-box {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
+  box-shadow: 1px 1px 10px #4663f655;
+  border-radius: 50px;
+}
+.search-input {
+  padding: 15px 5px;
+  outline: none;
+  border: none;
+  width: 69%;
+  font-size: 20px;
+  color: rgb(19, 19, 19);
+}
+.search-input::placeholder {
+  color: #a19fac;
+}
+.fa-search {
+  color: #a19fac;
+}
+.find-btn {
+  border: none;
+  background: #4663f6;
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 16px;
+  border-radius: 50px;
+}
+/* Popular Mentor Button */
+.popular-mentor-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 50px;
+}
+.popular-title {
+  color: #4c486a;
+}
+.popular-btn {
+  color: #4c486a;
+  padding: 8px;
+  border: 1px solid #b6b6b6;
+  border-radius: 9px;
+  font-weight: 700;
+  font-family: Dosis;
+}
